@@ -1,0 +1,14 @@
+Write a function to compute 5/0 and use try/except to catch the exceptions.
+
+Solution:
+
+def ThrowDevError():
+    return 5/0
+try:
+    ThrowDevError()
+except ZeroDivisionError:
+    print('Division by zero!')
+except ExceptionErr:
+    print('Caught an exception')
+finally:
+    print('Final Result')
